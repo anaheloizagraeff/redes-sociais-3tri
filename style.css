@@ -7,3 +7,8 @@
      --cor-de-fundo:#fff3ff;
      --font: "Roboto", sans-serif;;
 }
+body{
+     background-color: var(--cor-principal);
+     color: var(--cor-texto);
+     font-family: var(--font);
+}
