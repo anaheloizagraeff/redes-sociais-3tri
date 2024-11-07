@@ -7,6 +7,7 @@
      --cor-de-fundo:#fff3ff;
      --font: "Roboto", sans-serif;;
 }
+
 body{
      background-color: var(--cor-principal);
      color: var(--cor-texto);
@@ -14,31 +15,54 @@ body{
      height: 100vh;
      margin: 0;
 }
+
 .cabecalho{
     background-color: var(--cor-secundaria);
     text-align: center;
 }
+
 .cabecalho__titulo{
      font-size: 2rem;
      color: var(--cor-texto);
      font-weight: 700;
 }
+
 nav{
   display: flex;   
   justify-content: center;
   font-weight: 400;
 }
+
 nav a{
      text-decoration: none;
      color: var(--cor-texto);
      margin: 0 2rem 1rem 0rem;
      font-size: 1.2rem;
 }
+
 nav a:hover{
      text-decoration: underline;
      transform: scale(0,90);
      transition: transform 0.1s;
 }
+
+graficos-container {
+    margin: 5rem;
+     
+}
+
+.graficos-container texto {
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 2rem;
+    border: var(--cor-secundaria) solid 2px;  
+}
+
+span {
+     font-weight: bold;
+     color: var(--cor-secundaria);
+}
+
 footer{
      display: flex;
      align-items: center;
