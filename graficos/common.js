@@ -8,4 +8,5 @@ const tickConfig = {
     size: 16,
     color: getcss('--primary-color')
 }
-    export getcss, tickConfig
+
+export {getcss, tickConfig}
